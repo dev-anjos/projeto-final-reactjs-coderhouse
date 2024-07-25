@@ -12,8 +12,10 @@
   }
   
   .menu li {
+    display: flex;
     margin: 0;
     color: white;
+    align-items: center ;
   }
   
   .menu a {
@@ -24,4 +26,15 @@
   .menu a:hover {
     text-decoration: underline;
   }
-  
+  .container-menu{
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo{
+    width: 10vw;
+    border-radius: 20px;
+    
+  }
